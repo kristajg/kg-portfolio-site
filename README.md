@@ -1,2 +1,1 @@
-# kg-portfolio-site
-Personal portfolio site
+Portfolio site for kristagoralczyk.com
