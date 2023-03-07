@@ -24,7 +24,7 @@ class Subheader extends Component {
 
   componentDidMount () {
     this.randomizeCopy();
-    this.updateCopyIndex();
+    // this.updateCopyIndex();
   }
 
   shuffle = array => {

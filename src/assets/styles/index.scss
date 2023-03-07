@@ -35,8 +35,29 @@ $hot-orange: #fba92c;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-container {
+  text-align: center;
+  background-color: $light-gray;
+  padding: 15px 0;
+  color: #fff;
+
+  div {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  hr {
+    width: 10%
+  }
+
+  a {
+    display: inline-block;
+    img {
+      height: 30px;
+      width: 30px;
+      padding: 5px;
+    }
+  }
 }
 
 @keyframes App-logo-spin {
