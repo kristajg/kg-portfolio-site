@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Button from './Button';
+
 const copyPriority = [
   'Programmer',
   'Solutions Engineer',
@@ -62,8 +64,26 @@ class Subheader extends Component {
   render () {
     const { copyList, currentCopyIndex } = this.state;
     return (
-      <div className='subheader'>
-        <h3>I am a {copyList[currentCopyIndex]}</h3>
+      <div className='subheader-container'>
+        <div className='subheader-copy'>
+          <h3>I am a {copyList[currentCopyIndex]}</h3>
+        </div>
+        <div className='subheader-button-container'>
+          <ul>
+            <li>
+              <Button text='About' />
+            </li>
+            <li>
+              <Button text='Code' />
+            </li>
+            <li>
+              <Button text='Writing' />
+            </li>
+            <li>
+              <Button text='Speaking' />
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
