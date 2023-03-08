@@ -27,7 +27,7 @@ class Header extends Component {
 
   componentDidMount () {
     this.randomizeCopy();
-    // this.updateCopyIndex();
+    this.updateCopyIndex();
   }
 
   shuffle = array => {
@@ -78,7 +78,7 @@ class Header extends Component {
         <h2>hi, I'm <span className='name-text'>Krista Goralczyk 🌱 💻</span></h2>
         <div className='subheader-container'>
           <div className='subheader-copy'>
-            <h3>I am a {copyList[currentCopyIndex]}</h3>
+            <div className='subheader-copy-full-text'>I am a <span className='subheader-copy-dynamic-text' >{copyList[currentCopyIndex]}</span></div>
           </div>
           <div className='subheader-button-container'>
             <ul>

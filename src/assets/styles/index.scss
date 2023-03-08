@@ -57,8 +57,14 @@ a {
     display: block;
     clear: both;
     height: 80px;
-    h3 {
+    padding-left: 17%;
+    .subheader-copy-full-text {
       float: left;
+      font-weight: 600;
+      .subheader-copy-dynamic-text {
+        color: $bold-bue;
+        text-transform: lowercase;
+      }
     }
   }
 }
