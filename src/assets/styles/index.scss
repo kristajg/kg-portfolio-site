@@ -40,6 +40,18 @@ $bold-bue: #0562ee;
 
 .content-section {
   min-height: 50vh;
+  .content-header {
+    padding: 20px 0;
+    color: $dark-gray;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .bio-img {
+    width: 200px;
+    border-radius: 2px;
+  }
 }
 
 .footer-container {
