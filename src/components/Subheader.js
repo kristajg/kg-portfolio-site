@@ -61,6 +61,14 @@ class Subheader extends Component {
     }, 2000);
   }
 
+  scrollToContentSection = e => {
+    e.preventDefault();
+    const section = document.querySelector(`#section-${e.target.id}`);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
   render () {
     const { copyList, currentCopyIndex } = this.state;
     return (
@@ -71,16 +79,16 @@ class Subheader extends Component {
         <div className='subheader-button-container'>
           <ul>
             <li>
-              <Button text='About' />
+              <Button text='About' sectionId='about' onClick={this.scrollToContentSection} />
             </li>
             <li>
-              <Button text='Code' />
+              <Button text='Code' sectionId='code' onClick={this.scrollToContentSection} />
             </li>
             <li>
-              <Button text='Writing' />
+              <Button text='Writing' sectionId='writing' onClick={this.scrollToContentSection} />
             </li>
             <li>
-              <Button text='Speaking' />
+              <Button text='Speaking' sectionId='speaking' onClick={this.scrollToContentSection} />
             </li>
           </ul>
         </div>

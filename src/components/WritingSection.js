@@ -1,6 +1,6 @@
 export default function WritingSection(){
   return (
-    <div className='section'>
+    <div className='content-section'  id='section-writing'>
       List writing here
     </div> 
   )

@@ -1,7 +1,7 @@
-export default function Button(props){
+export default function Button({ text, sectionId, onClick }){
   return (
-    <div className='button'>
-      {props.text}
+    <div className='button' id={sectionId} onClick={e => onClick(e)}>
+      {text}
     </div> 
   )
 }
