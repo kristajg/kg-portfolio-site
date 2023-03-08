@@ -9,16 +9,17 @@ const copyPriority = [
 
 const copySecondary = [
   'Writer',
-  'Speaker',
+  // 'Speaker',
   'Standard Nerd',
   'Cyclist',
   'Wannabe Pixel Artist',
-  'Multivitamin Taker',
+  'Dead Mall Series Fan',
   'Weight Lifter',
   'Proud Zune Owner',
+  'Bird Enthusiast (except geese)',
 ];
 
-class Subheader extends Component {
+class Header extends Component {
   state = {
     currentCopyIndex: 0,
     copyList: copyPriority,
@@ -54,11 +55,12 @@ class Subheader extends Component {
     setInterval(() => {
       const { currentCopyIndex, copyList } = this.state;
       let newCopyIndex = 0;
-      if (currentCopyIndex !== copyList.length) {
+      let len = copyList.length - 1;
+      if (currentCopyIndex !== len) {
         newCopyIndex = currentCopyIndex + 1;
       }
       this.setState({ currentCopyIndex: newCopyIndex });
-    }, 2000);
+    }, 3000);
   }
 
   scrollToContentSection = e => {
@@ -72,30 +74,33 @@ class Subheader extends Component {
   render () {
     const { copyList, currentCopyIndex } = this.state;
     return (
-      <div className='subheader-container'>
-        <div className='subheader-copy'>
-          <h3>I am a {copyList[currentCopyIndex]}</h3>
+      <header className='app-header'>
+        <h2>hi, I'm <span className='name-text'>Krista Goralczyk 🌱 💻</span></h2>
+        <div className='subheader-container'>
+          <div className='subheader-copy'>
+            <h3>I am a {copyList[currentCopyIndex]}</h3>
+          </div>
+          <div className='subheader-button-container'>
+            <ul>
+              <li>
+                <Button text='About' sectionId='about' onClick={this.scrollToContentSection} />
+              </li>
+              <li>
+                <Button text='Code' sectionId='code' onClick={this.scrollToContentSection} />
+              </li>
+              <li>
+                <Button text='Writing' sectionId='writing' onClick={this.scrollToContentSection} />
+              </li>
+              <li>
+                <Button text='Speaking' sectionId='speaking' onClick={this.scrollToContentSection} />
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className='subheader-button-container'>
-          <ul>
-            <li>
-              <Button text='About' sectionId='about' onClick={this.scrollToContentSection} />
-            </li>
-            <li>
-              <Button text='Code' sectionId='code' onClick={this.scrollToContentSection} />
-            </li>
-            <li>
-              <Button text='Writing' sectionId='writing' onClick={this.scrollToContentSection} />
-            </li>
-            <li>
-              <Button text='Speaking' sectionId='speaking' onClick={this.scrollToContentSection} />
-            </li>
-          </ul>
-        </div>
-      </div>
+      </header>
     );
   }
 }
 
-export default Subheader;
+export default Header;
 
