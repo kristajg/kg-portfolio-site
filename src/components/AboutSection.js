@@ -11,7 +11,7 @@ export default function AboutSection(){
             <img src={kg} className='bio-img' alt='Krista' />
           </div>
           <p className='bio-paragraph'>
-            Howdy! I am a <b>solutions engineer &#38; programmer</b> with over 12 years of tech industry experience.<br />
+            Howdy! I am a <b>solutions engineer &#38; programmer</b> with over 12 years of tech industry experience. I'm driven to build new things with creativity and positive intent.<br />
             I know the full gamut of what it takes to conceptualize &#38; build a fullstack product - then take it to market. My preferred tech stack is <b>React + Node.js</b>.<br />
             Currently I am a Senior SE at <b>Twilio</b>, specialized in advising on programmable messaging, voice, email, &#38; account security.<br />
             I enjoy writing &#38; speaking about anything tech or comedy related. A two-for-one deal!<br />
