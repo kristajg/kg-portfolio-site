@@ -9,7 +9,7 @@ import SpeakingSection from '../components/SpeakingSection';
 class Content extends Component {
   render () {
     return (
-      <div className='section-container'>
+      <div>
         <AboutSection />
         <CodeSection />
         <WritingSection />

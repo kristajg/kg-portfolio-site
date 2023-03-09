@@ -6,10 +6,10 @@ export default function Footer(){
     <div className='footer-container'>
       <div>The Socials</div>
       <hr />
-      <a title='Github' href='https://github.com/kristajg' target='_blank'>
+      <a title='Github' href='https://github.com/kristajg' target='_blank' rel="noreferrer">
         <img src={github_icon} alt='Github Icon' />
       </a>
-      <a title='Linkedin' href='https://www.linkedin.com/in/krista-goralczyk-037a1861/' target='_blank'>
+      <a title='Linkedin' href='https://www.linkedin.com/in/krista-goralczyk-037a1861/' target='_blank' rel="noreferrer">
         <img src={li_icon} alt='Linkedin Icon' />
       </a>
     </div> 

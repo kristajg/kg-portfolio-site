@@ -24,7 +24,7 @@ p {
 a {
   color: $bold-bue;
   &:hover {
-    color: $hot-orange;
+    color: $black;
   }
 }
 
@@ -115,6 +115,7 @@ a {
 
 .content-section {
   min-height: 60vh;
+  background-color: $white;
   .content-header {
     padding: 20px 0;
     color: $dark-gray;
@@ -122,6 +123,13 @@ a {
     font-weight: 700;
     text-transform: uppercase;
   }
+  .content-body {
+    padding: 0 12%;
+  }
+}
+
+.orange-bg {
+  background-color: $hot-orange;
 }
 
 .content-flex-container {
@@ -129,11 +137,6 @@ a {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.section-container {
-  background-color: $white;
-  padding: 0 12%;
 }
 
 .bio-pic {
