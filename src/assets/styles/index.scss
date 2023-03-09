@@ -145,6 +145,10 @@ a {
   .bio-img {
     border-radius: 2px;
     max-width: 330px;
+
+    @media (max-width: 750px) {
+      max-width: 290px;
+    }
   }
 }
 
