@@ -4,7 +4,7 @@ export default function SpeakingSection(){
       <div className='content-header'>speaking</div>
       <div className='content-body'>
         <p>
-          Twilio SIGNAL 2022, Women who Code ATX, Envestnet's Women Leaders in Finance, Reprise, Oscars, and the Mortified Live comedy show.
+          Twilio SIGNAL 2022, Women who Code ATX, Envestnet's Women Leaders in Finance, Reprise Solutions Engineer Interview Series, Oscars Tech Javascript Meetup 2022 - Presented Phaser.io Game Dev Basics, and the Mortified Live - Austin comedy show.
         </p>
       </div>
     </div> 
