@@ -4,6 +4,9 @@ export default function WritingSection(){
       <div className='content-header'>writing</div>
       <div className='content-body'>
         <p>
+          Twilio blog post on <a href='https://www.twilio.com/blog/high-volume-messaging-solution' target='_blank' rel="noreferrer">architecting a scalable Programmable Messaging solution</a>
+        </p>
+        <p>
           Twilio blog post on <a href='https://www.twilio.com/blog/add-custom-attributes-twilio-sms-campaigns' target='_blank' rel="noreferrer">attaching metadata to Programmable Messaging</a>
         </p>
         <p>

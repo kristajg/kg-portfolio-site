@@ -4,45 +4,36 @@
 $black: #000000;
 $white: #ffffff;
 
-$dark-gray: #2e444e;
-$medium-gray: #565656;
-$light-gray: #9e9e9e;
-$lightest-gray: #c4c4c4;
-
-$hot-orange: #fba92c;
-$bold-bue: #0562ee;
+$background: #fef6e4;
+$headline: #001858;
+$paragraph: #172c66;
+$button: #f582ae;
+$button-dark: #ef3b80;
+$button-text: #001858;
+$secondary: #8bd3dd;
+$tertiary: #f3d2c1;
+$bold-blue: #0562ee;
 
 p {
   margin-top: 0;
   font-family: 'PT Serif', serif;
-  color: $dark-gray;
+  color: $paragraph;
   font-size: 20px;
   line-height: 30px;
   text-align: left;
 }
 
 a {
-  color: $bold-bue;
+  color: $button-dark;
   &:hover {
-    color: $black;
+    color: $bold-blue;
   }
 }
 
 .App {
   text-align: center;
-  background-color: $hot-orange;
+  background-color: $background;
 }
-
-// .App-logo {
-//   height: 40vmin;
-//   pointer-events: none;
-// }
-
-// @media (prefers-reduced-motion: no-preference) {
-//   .App-logo {
-//     animation: App-logo-spin infinite 20s linear;
-//   }
-// }
 
 .app-header {
   min-height: 100vh;
@@ -51,18 +42,19 @@ a {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $headline;
 
   .subheader-copy {
     display: block;
     clear: both;
     height: 80px;
     padding-left: 17%;
+    color: $bold-blue;
     .subheader-copy-full-text {
       float: left;
       font-weight: 600;
       .subheader-copy-dynamic-text {
-        color: $bold-bue;
+        color: $button;
         text-transform: lowercase;
       }
     }
@@ -82,14 +74,11 @@ a {
   }
 }
 
-
-
-
 .footer-container {
   text-align: center;
-  background-color: $light-gray;
+  background-color: $headline;
   padding: 18px 0;
-  color: #fff;
+  color: $white;
 
   div {
     font-size: 14px;
@@ -111,15 +100,12 @@ a {
   }
 }
 
-
-
-
 .content-section {
   min-height: 60vh;
-  background-color: $white;
+  background-color: $secondary;
   .content-header {
     padding: 40px 0 30px 0;
-    color: $dark-gray;
+    color: $headline;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -129,8 +115,8 @@ a {
   }
 }
 
-.orange-bg {
-  background-color: $hot-orange;
+.alternate-section-background {
+  background-color: $background;
 }
 
 .content-flex-container {
@@ -145,7 +131,6 @@ a {
   .bio-img {
     border-radius: 2px;
     max-width: 330px;
-
     @media (max-width: 750px) {
       max-width: 290px;
     }
@@ -166,28 +151,15 @@ a {
   }
 }
 
-
-
-
-
 .button {
   cursor: pointer;
   padding: 8px 30px 10px;
-  border: 2px solid $dark-gray;
+  border: 2px solid $button-text;
   border-radius: 2px;
-  color: $dark-gray;
+  color: $button-text;
   font-size: 22px;
   width: 120px;
   &:hover {
-    background-color: $lightest-gray;
+    background-color: $button;
   }
 }
-
-// @keyframes App-logo-spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
