@@ -26,7 +26,7 @@ export default function SpeakingSection(){
             </div>
             <div className='grid-item'>
               <a href='https://www.reprise.com/resources/blog/should-ses-fear-or-embrace-demo-automation' target='_blank' rel="noreferrer">
-                Interviewee for Reprise Solutions Engineer Interview Series
+                Interviewee for Reprise Solutions Engineer Series
               </a>
               <img src={reprise} className='grid-image' alt='reprise logo' />
             </div>
