@@ -111,7 +111,7 @@ a {
     text-transform: uppercase;
   }
   .content-body {
-    padding: 0 12%;
+    padding: 0 12% 12%;
   }
 }
 
@@ -162,4 +162,21 @@ a {
   &:hover {
     background-color: $button;
   }
+}
+
+.grid-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.grid-item {
+  margin-bottom: 24px;
+  padding: 10px;
+  border: 2px solid $tertiary;
+  width: 250px;
+  height: 170px;
+  font-size: 18px;
+  font-family: 'PT Serif', serif;
+  color: $paragraph;
 }
