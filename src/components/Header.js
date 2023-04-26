@@ -9,12 +9,11 @@ const copyPriority = [
 
 const copySecondary = [
   'Writer',
-  // 'Speaker',
   'Standard Nerd',
   'Cyclist',
-  'Wannabe Pixel Artist',
+  'Pixel Artist',
   'Dead Mall Series Fan',
-  'Weight Lifter',
+  'Solutions Architect',
   'Proud Zune Owner',
   'Bird Enthusiast (except geese)',
 ];
@@ -60,7 +59,7 @@ class Header extends Component {
         newCopyIndex = currentCopyIndex + 1;
       }
       this.setState({ currentCopyIndex: newCopyIndex });
-    }, 3000);
+    }, 2400);
   }
 
   scrollToContentSection = e => {
@@ -75,7 +74,7 @@ class Header extends Component {
     const { copyList, currentCopyIndex } = this.state;
     return (
       <header className='app-header'>
-        <h2>hi, I'm <span className='name-text'>Krista Goralczyk 🌱 💻</span></h2>
+        <h2>hi, I'm <span className='name-text'>Krista Goralczyk</span></h2>
         <div className='subheader-container'>
           <div className='subheader-copy'>
             <div className='subheader-copy-full-text'>I am a <span className='subheader-copy-dynamic-text' >{copyList[currentCopyIndex]}</span></div>
@@ -83,16 +82,16 @@ class Header extends Component {
           <div className='subheader-button-container'>
             <ul>
               <li>
-                <Button text='About' sectionId='about' onClick={this.scrollToContentSection} />
+                <Button text='About 🌱' sectionId='about' onClick={this.scrollToContentSection} />
               </li>
               <li>
-                <Button text='Code' sectionId='code' onClick={this.scrollToContentSection} />
+                <Button text='Code 💻' sectionId='code' onClick={this.scrollToContentSection} />
               </li>
               <li>
-                <Button text='Writing' sectionId='writing' onClick={this.scrollToContentSection} />
+                <Button text='Writing 📖' sectionId='writing' onClick={this.scrollToContentSection} />
               </li>
               <li>
-                <Button text='Speaking' sectionId='speaking' onClick={this.scrollToContentSection} />
+                <Button text='Speaking 🎤' sectionId='speaking' onClick={this.scrollToContentSection} />
               </li>
             </ul>
           </div>

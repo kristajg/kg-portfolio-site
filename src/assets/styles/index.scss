@@ -19,7 +19,7 @@ p {
   font-family: 'PT Serif', serif;
   color: $paragraph;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 32px;
   text-align: left;
 }
 
@@ -48,8 +48,11 @@ a {
     display: block;
     clear: both;
     height: 80px;
-    padding-left: 17%;
+    padding-left: 23.5%;
     color: $bold-blue;
+    @media (max-width: 750px) {
+      padding-left: 15.5%;
+    }
     .subheader-copy-full-text {
       float: left;
       font-weight: 600;
