@@ -1,7 +1,7 @@
 import React from 'react';
 
 import kg from '../assets/images/kg_about.jpg';
-import resume from '../assets/images/kristaGoralczyk_resume2023.pdf';
+import resume from '../assets/images/kristaGoralczyk_resume.pdf';
 
 export default function AboutSection(){
   return (
