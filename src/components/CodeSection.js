@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function CodeSection(){
   return (
     <div className='content-section alternate-section-background'  id='section-code'>

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import womenWhoCode from '../assets/images/speaking/womenWhoCode.jpeg';
 import envestnet from '../assets/images/speaking/envestnet.png';
 import mortified from '../assets/images/speaking/mortified.png';

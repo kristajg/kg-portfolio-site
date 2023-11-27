@@ -8,14 +8,16 @@ const copyPriority = [
 ];
 
 const copySecondary = [
+  'Programmer',
+  'Solutions Engineer',
   'Writer',
   'Standard Nerd',
   'Cyclist',
   'Pixel Artist',
   'Dead Mall Series Fan',
-  'Solutions Architect',
   'Proud Zune Owner',
   'Bird Enthusiast (except geese)',
+  'lifelong learner',
 ];
 
 class Header extends Component {

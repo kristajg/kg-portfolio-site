@@ -134,6 +134,9 @@ a {
   .bio-img {
     border-radius: 2px;
     max-width: 330px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(128,128,128,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(128,128,128,1);
+    box-shadow: 0px 0px 5px 0px rgba(128,128,128,1);
     @media (max-width: 750px) {
       max-width: 290px;
     }
@@ -161,7 +164,7 @@ a {
   border-radius: 2px;
   color: $button-text;
   font-size: 22px;
-  width: 120px;
+  width: 126px;
   &:hover {
     background-color: $button;
   }
