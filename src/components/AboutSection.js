@@ -21,8 +21,8 @@ export default function AboutSection(){
             <br/><br/>
             <b>Latest Side Projects:</b><br/>
             • <a href='https://www.lexaloffle.com/bbs/?tid=150987' target='_blank' rel="noreferrer">The Hungry Seagull</a> - Pico-8 video game<br/>
-            • maintaining my compost bin - AKA earthworm metropolis<br/>
-            • TBD short story - non-dystopian futuristic fiction
+            • working on <a href='https://HelloWorldWork.com' target='_blank' rel="noreferrer">HelloWorldWork</a> - for all your Twilio &#38; tech consultation needs<br/>
+            • maintaining my compost bin - AKA earthworm metropolis
           </p>
         </div>
       </div>

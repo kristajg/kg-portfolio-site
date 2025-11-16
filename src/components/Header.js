@@ -3,21 +3,25 @@ import React, { Component } from 'react';
 import Button from './Button';
 
 const copyPriority = [
-  'Programmer',
-  'Solutions Engineer',
+  'an engineer',
+  'a solutions architect',
 ];
 
 const copySecondary = [
-  'Programmer',
-  'Solutions Engineer',
-  'Writer',
-  'Standard Nerd',
-  'Cyclist',
-  'Pixel Artist',
-  'Dead Mall Series Fan',
-  'Proud Zune Owner',
-  'Bird Enthusiast (except geese)',
-  'lifelong learner',
+  'an engineer',
+  'a solutions architect',
+  'a writer',
+  'a casual cyclist',
+  'a Dead Mall Series Fan',
+  'a proud zune owner',
+  'a bird enthusiast',
+  'a lifelong learner',
+  'a pixel art enjoyer',
+  'trying to walk 10k steps per day',
+  'reminiscing about flip phones',
+  'trying my best',
+  'looking at the weather app',
+  'overwhelmed by possibility',
 ];
 
 class Header extends Component {
@@ -79,7 +83,7 @@ class Header extends Component {
         <h2>hi, I'm <span className='name-text'>Krista Goralczyk</span></h2>
         <div className='subheader-container'>
           <div className='subheader-copy'>
-            <div className='subheader-copy-full-text'>I am a <span className='subheader-copy-dynamic-text' >{copyList[currentCopyIndex]}</span></div>
+            <div className='subheader-copy-full-text'>I am <span className='subheader-copy-dynamic-text' >{copyList[currentCopyIndex]}</span></div>
           </div>
           <div className='subheader-button-container'>
             <ul>
