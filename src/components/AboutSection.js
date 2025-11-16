@@ -6,16 +6,23 @@ import resume from '../assets/images/kristaGoralczyk_resume.pdf';
 export default function AboutSection(){
   return (
     <div className='content-section' id='section-about'>
-      <div className='content-header'>about</div>
+      <div className='content-header'>Hi, I&#39;m Krista</div>
       <div className='content-body'>
         <div className='content-flex-container'>
           <div className='bio-pic'>
             <img src={kg} className='bio-img' alt='Krista' />
           </div>
           <p className='bio-paragraph'>
-            Howdy! I am a <b>solutions engineer &#38; programmer</b> with over 12 years of tech industry experience. I'm driven to build new things with creativity and positive intent.<br /><br />
-            I know the full gamut of what it takes to conceptualize &#38; build a fullstack product - then take it to market. My preferred code stack is <b>React + Node.js</b>.<br /><br />
-            Currently, <b>I am available for hire or freelance work</b>. For inquiries regarding technical consultation, web development, or speaking opportunities <a href="mailto:krista.goralczyk@gmail.com">drop me a line</a>. My resume is <a href={resume} target='_blank' rel="noreferrer">available here</a>.
+            Currently I&#39;m <b>based in the DC area</b>, but am <b>originally from Pittsburgh</b>. Yes, I am familiar with pierogi both as a food (delicious) and as a mascot (❤️ Jalapeno Hannah).
+            <br/><br/>
+            As a <b>solutions architect &#38; programmer</b>, I believe tech products should be performant, secure, and most importantly, pragmatic. For inquiries regarding technical consultation, web development, or speaking opportunities <a href="mailto:krista.goralczyk@gmail.com">drop me a line</a>. Find my <a href={resume} target='_blank' rel="noreferrer">resume here</a>.
+            <br/><br/>
+            When I'm not at work, you can find me reading through the huge stack of books that is constantly replenished and therefore never gets any smaller. With a sundry of interests (anything from making latch hook rugs to weight lifting) I'm always working on a few projects. Find more projects and writing below.
+            <br/><br/>
+            <b>Latest Side Projects:</b><br/>
+            • <a href='https://www.lexaloffle.com/bbs/?tid=150987' target='_blank' rel="noreferrer">The Hungry Seagull</a> - Pico-8 video game<br/>
+            • working on <a href='https://HelloWorldWork.com' target='_blank' rel="noreferrer">HelloWorldWork</a> - for all your Twilio &#38; tech consultation needs<br/>
+            • maintaining my compost bin - AKA earthworm metropolis
           </p>
         </div>
       </div>
