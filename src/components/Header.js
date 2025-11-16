@@ -19,7 +19,6 @@ const copySecondary = [
   'a pixel art enjoyer',
   'trying to walk 10k steps per day',
   'reminiscing about flip phones',
-  'trying my best',
   'looking at the weather app',
   'overwhelmed by possibility',
 ];
