@@ -44,23 +44,40 @@ a {
   font-size: calc(10px + 2vmin);
   color: $headline;
 
+  .main-copy {
+    height: 100px;
+    .name-text {
+      color: $button;
+    }
+  }
+
   .subheader-copy {
     display: block;
     clear: both;
     height: 80px;
-    padding-left: 23.5%;
+    padding-top: 18px;
+    text-transform: lowercase;
     color: $bold-blue;
-    @media (max-width: 750px) {
-      padding-left: 15.5%;
+    .non-dynamic {
+      padding-bottom: 10px;
+      color: $headline;
+      font-size: 22px;
+      text-transform: none;
     }
-    .subheader-copy-full-text {
-      float: left;
-      font-weight: 600;
-      .subheader-copy-dynamic-text {
-        color: $button;
-        text-transform: lowercase;
-      }
-    }
+    // .subheader-copy-dynamic-text {
+    //   color: $button;
+    // }
+    // @media (max-width: 768px) {
+    //   padding-left: 10%;
+    // }
+    // .subheader-copy-full-text {
+    //   float: left;
+    //   font-weight: 600;
+    //   .subheader-copy-dynamic-text {
+    //     color: $button;
+    //     text-transform: lowercase;
+    //   }
+    // }
   }
 }
 

@@ -3,24 +3,24 @@ import React, { Component } from 'react';
 import Button from './Button';
 
 const copyPriority = [
-  'an engineer',
-  'a solutions architect',
+  'a writer',
+  // 'a game developer',
 ];
 
 const copySecondary = [
-  'an engineer',
-  'a solutions architect',
   'a writer',
-  'a casual cyclist',
-  'a Dead Mall Series Fan',
-  'a proud zune owner',
+  'a game developer',
+  'a programmer',
   'a bird enthusiast',
-  'a lifelong learner',
-  'a pixel art enjoyer',
-  'trying to walk 10k steps per day',
+  'reading lore',
+  'touring the facility and picking up slack',
+  'drawing bean-shaped humanoids',
   'reminiscing about flip phones',
   'looking at the weather app',
   'overwhelmed by possibility',
+  'trying to enjoy life as much as t-pain does',
+  're-rolling a night elf druid for the 100th time',
+  'forgetting important numbers',
 ];
 
 class Header extends Component {
@@ -79,11 +79,17 @@ class Header extends Component {
     const { copyList, currentCopyIndex } = this.state;
     return (
       <header className='app-header'>
-        <h2>hi, I'm <span className='name-text'>Krista Goralczyk</span></h2>
+        <div className='main-copy'>
+          <h2>hi, I'm <span className='name-text'>Krista</span></h2>
+        </div>
         <div className='subheader-container'>
           <div className='subheader-copy'>
-            <div className='subheader-copy-full-text'>I am <span className='subheader-copy-dynamic-text' >{copyList[currentCopyIndex]}</span></div>
+            <div className='non-dynamic'>
+              I am
+            </div>
+            {copyList[currentCopyIndex]}
           </div>
+
           <div className='subheader-button-container'>
             <ul>
               <li>
