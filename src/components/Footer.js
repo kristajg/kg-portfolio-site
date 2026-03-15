@@ -1,5 +1,6 @@
 import github_icon from '../assets/images/github_icon.svg';
 import li_icon from '../assets/images/linkedin_icon.svg';
+import as_icon from '../assets/images/artstation_icon.svg';
 
 export const Footer = () => {
   return (
@@ -11,6 +12,9 @@ export const Footer = () => {
       </a>
       <a title='Linkedin' href='https://www.linkedin.com/in/krista-goralczyk-037a1861/' target='_blank' rel="noreferrer">
         <img src={li_icon} alt='Linkedin Icon' />
+      </a>
+      <a title='Artstation' href='https://www.artstation.com/stratosyr' target='_blank' rel="noreferrer">
+        <img src={as_icon} alt='Artstation Icon' />
       </a>
     </div> 
   );
