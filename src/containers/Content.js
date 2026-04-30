@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 // Components
 import AboutSection from '../components/AboutSection';
-import CodeSection from '../components/CodeSection';
+import ProjectSection from '../components/ProjectSection';
 import WritingSection from '../components/WritingSection';
 import SpeakingSection from '../components/SpeakingSection';
 
@@ -11,7 +11,7 @@ class Content extends Component {
     return (
       <div>
         <AboutSection />
-        <CodeSection />
+        <ProjectSection />
         <WritingSection />
         <SpeakingSection />
       </div>

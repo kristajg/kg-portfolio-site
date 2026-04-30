@@ -96,7 +96,7 @@ class Header extends Component {
                 <Button text='About 🌱' sectionId='about' onClick={this.scrollToContentSection} />
               </li>
               <li>
-                <Button text='Code 💻' sectionId='code' onClick={this.scrollToContentSection} />
+                <Button text='Projects 💻' sectionId='projects' onClick={this.scrollToContentSection} />
               </li>
               <li>
                 <Button text='Writing 📖' sectionId='writing' onClick={this.scrollToContentSection} />
