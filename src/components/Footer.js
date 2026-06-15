@@ -1,6 +1,7 @@
 import github_icon from '../assets/images/github_icon.svg';
 import li_icon from '../assets/images/linkedin_icon.svg';
 import as_icon from '../assets/images/artstation_icon.svg';
+import ig_icon from '../assets/images/instagram_icon.svg';
 
 export const Footer = () => {
   return (
@@ -15,6 +16,9 @@ export const Footer = () => {
       </a>
       <a title='Artstation' href='https://www.artstation.com/stratosyr' target='_blank' rel="noreferrer">
         <img src={as_icon} alt='Artstation Icon' />
+      </a>
+      <a title='Linkedin' href='https://www.instagram.com/kristajg_art' target='_blank' rel="noreferrer">
+        <img src={ig_icon} alt='Instagram Icon' />
       </a>
     </div> 
   );
