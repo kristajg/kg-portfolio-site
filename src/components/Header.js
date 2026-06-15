@@ -4,22 +4,23 @@ import Button from './Button';
 
 const copyPriority = [
   'a writer',
-  // 'a game developer',
+  'an illustrator',
 ];
 
 const copySecondary = [
   'a writer',
+  'an illustrator',
   'a game developer',
   'a programmer',
   'a bird enthusiast',
   'reading lore',
   'touring the facility and picking up slack',
-  'drawing bean-shaped humanoids',
+  'drawing goblins',
   'reminiscing about flip phones',
   'looking at the weather app',
   'overwhelmed by possibility',
   'trying to enjoy life as much as t-pain does',
-  're-rolling a night elf druid for the 100th time',
+  're-rolling a night elf druid',
   'forgetting important numbers',
 ];
 
