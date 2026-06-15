@@ -3,7 +3,6 @@
 // Theme & global styles
 $black: #000000;
 $white: #ffffff;
-
 $background: #fef6e4;
 $headline: #001858;
 $paragraph: #172c66;
@@ -14,6 +13,7 @@ $secondary: #8bd3dd;
 $tertiary: #f3d2c1;
 $bold-blue: #0562ee;
 
+// Universal base element styles
 p {
   margin-top: 0;
   font-family: 'PT Serif', serif;
@@ -30,6 +30,20 @@ a {
   }
 }
 
+.button {
+  cursor: pointer;
+  padding: 8px 30px 10px;
+  border: 2px solid $button-text;
+  border-radius: 2px;
+  color: $button-text;
+  font-size: 22px;
+  width: 126px;
+  &:hover {
+    background-color: $button;
+  }
+}
+
+// Landing page header
 .App {
   text-align: center;
   background-color: $background;
@@ -64,36 +78,31 @@ a {
       font-size: 22px;
       text-transform: none;
     }
-    // .subheader-copy-dynamic-text {
-    //   color: $button;
-    // }
-    // @media (max-width: 768px) {
-    //   padding-left: 10%;
-    // }
-    // .subheader-copy-full-text {
-    //   float: left;
-    //   font-weight: 600;
-    //   .subheader-copy-dynamic-text {
-    //     color: $button;
-    //     text-transform: lowercase;
-    //   }
-    // }
   }
-}
 
-.subheader-button-container {
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
-    padding: 0;
-    li {
-      padding: 10px;
+  .subheader-button-container {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: center;
+      padding: 0;
+      li {
+        padding: 10px;
+      }
     }
   }
 }
 
+// Blog
+.Blog {
+  .blog-content {
+    text-align: left;
+    min-height: 100vh;
+  }
+}
+
+// Footer
 .footer-container {
   text-align: center;
   background-color: $headline;
@@ -171,19 +180,6 @@ a {
   }
   .bio-paragraph {
     width: 100%;
-  }
-}
-
-.button {
-  cursor: pointer;
-  padding: 8px 30px 10px;
-  border: 2px solid $button-text;
-  border-radius: 2px;
-  color: $button-text;
-  font-size: 22px;
-  width: 126px;
-  &:hover {
-    background-color: $button;
   }
 }
 
