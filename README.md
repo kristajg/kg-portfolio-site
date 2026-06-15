@@ -1,1 +1,1 @@
-Portfolio site for kristagoralczyk.com
+Portfolio site for [krista-goralczyk.com]
